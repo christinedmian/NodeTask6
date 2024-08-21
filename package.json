@@ -1,7 +1,6 @@
 {
   "name": "lec1",
   "version": "1.0.0",
-  "description": "",
   "main": "allData.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "validator": "^13.12.0",
-    "yargs": "^17.7.2"
-  }
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^4.15.0",
+    "mongoose": "^8.5.3",
+    "validator": "^13.12.0"
+  },
+  "keywords": [],
+  "description": ""
 }
